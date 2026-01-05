@@ -72,6 +72,8 @@ To destroy resources, run:
 
 ```sh
 terraform destroy
+# If using a custom variables file
+terraform destroy -var-file="test.tfvars"
 ```
 
 ## Contributing
